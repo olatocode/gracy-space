@@ -32,8 +32,7 @@ const Projects = () => {
           </h2>
 
           <p className="pb-5">
-            These are some of my best projects. I have built these with React,
-            MERN and vanilla CSS. Check them out.
+            These are some of my best projects.
           </p>
         </div>
 
@@ -41,7 +40,7 @@ const Projects = () => {
       </div>
 
       <div className="projects container mx-auto grid md:grid-cols-3 gap-10">
-        {projects.map((project, i) => {
+        {/* {projects.map((project, i) => {
           return (
             <div className="relative" key={i}>
               <img src={project.img} alt={project.title} />
@@ -67,7 +66,8 @@ const Projects = () => {
               </div>
             </div>
           );
-        })}
+        })} */}
+        <p className="pb-5">Coming Soon...</p>
       </div>
     </section>
   );

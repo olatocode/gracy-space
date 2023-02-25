@@ -31,7 +31,7 @@ const Blog = () => {
       </div>
 
       <div className="projects container mx-auto grid md:grid-cols-2 gap-10">
-        {post.map((item) => {
+        {/* {post.map((item) => {
           return (
             <div>
               <img src={item.img} alt={item.title} />
@@ -44,7 +44,8 @@ const Blog = () => {
               </a>
             </div>
           );
-        })}
+        })} */}
+        <p className="pb-5">Coming Soon...</p>
       </div>
     </section>
   );
