@@ -4,11 +4,10 @@ import React from 'react';
 import HeroImg from '../assets/grace.png';
 
 import {
-  AiOutlineTwitter,
   AiOutlineFacebook,
-  AiOutlineLinkedin,
   AiOutlineYoutube,
   AiOutlineInstagram,
+  AiOutlineWhatsApp,
 } from 'react-icons/ai';
 
 const Hero = () => {
@@ -27,7 +26,7 @@ const Hero = () => {
 
           <div className="flex py-5 ">
             <a
-              href="https://linkedin.com/tobi-awosola"
+              href="https://www.youtube.com/@gracyspace"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {' '}
@@ -35,15 +34,22 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://twitter.com/olatocode"
+              href="https://api.whatsapp.com/send/?phone=%2B09056024921&text&type=phone_number&app_absent=0"
+              className="pr-4 inline-block text-accent hover:text-white"
+            >
+              {' '}
+              <AiOutlineWhatsApp size={40} />{' '}
+            </a>
+
+            <a
+              href="https://web.facebook.com/grace.awosola.5?mibextid=ZbWKwL&_rdc=1&_rdr"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {' '}
               <AiOutlineFacebook size={40} />{' '}
             </a>
-
             <a
-              href="https://www.facebook.com/tobi.awosola"
+              href="https://www.instagram.com/gracy_space/?"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {' '}

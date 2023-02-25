@@ -1,4 +1,6 @@
-import React from "react";
+/** @format */
+
+import React from 'react';
 
 const Contact = () => {
   return (
@@ -8,15 +10,12 @@ const Contact = () => {
           Contact Me
         </h2>
         <p>
-          I am currently open for a fulltime Frontend Developer role. If you
-          want to discuss about that feel free to email me or call me.
+          I am currently open for a social media manager role. If you want to
+          discuss about that feel free to email me or send dm on my social handles
         </p>
 
         <p className="py-2">
-          <span className="font-bold">Email:</span> awosolat@gmail.com
-        </p>
-        <p className="py-2">
-          <span className="font-bold">Phone:</span> +234 8032289461
+          <span className="font-bold">Email:</span> oyin237@gmail.com
         </p>
       </div>
     </section>

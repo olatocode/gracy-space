@@ -1,7 +1,7 @@
 /** @format */
 
 import React from 'react';
-import AboutImg from '../assets/laptop.webp';
+import AboutImg from '../assets/logo.png';
 
 const About = () => {
   return (
